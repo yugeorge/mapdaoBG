@@ -25,6 +25,16 @@
             android:name=".MapdaoBGActivity"
             android:label="@string/title_activity_mapdao_bg" >
         </activity>
+        <activity
+            android:name=".MapdaoBGRegisterActivity"
+            android:label="@string/title_activity_mapdao_bgregister" >
+        </activity>
     </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
 </manifest>
