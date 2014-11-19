@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 'android-L'
+    compileSdkVersion 20
     buildToolsVersion "20.0.0"
 
     defaultConfig {
         applicationId "com.mapdaobackground.mapdaobg"
-        minSdkVersion 14
-        targetSdkVersion 14
+        minSdkVersion 11
+        targetSdkVersion 19
         versionCode 1
         versionName "1.0"
     }
@@ -19,7 +19,26 @@ android {
     }
 }
 
+
+android {
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+    // ...
+}
+
+
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
     compile files('libs/avoscloud-v2.6.2.jar')
+    compile 'com.android.support:support-v4:20.+'
+    compile files('libs/android-async-http-1.4.4-fix.jar')
+    compile files('libs/avoscloud-v2.5.7.jar')
+    compile files('libs/avospush-v2.5.7.jar')
+    compile files('libs/avosstatistics-v2.5.7.jar')
+    compile files('libs/fastjson.jar')
+    compile files('libs/httpmime-4.2.4.jar')
 }

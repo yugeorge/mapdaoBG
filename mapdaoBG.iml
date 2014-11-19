@@ -78,17 +78,17 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 20, L preview Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 20 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="avossns-v2.6.2" level="project" />
     <orderEntry type="library" exported="" name="avoscloud-v2.6.2" level="project" />
     <orderEntry type="library" exported="" name="fastjson" level="project" />
-    <orderEntry type="library" exported="" name="avosstatistics-v2.6.2" level="project" />
+    <orderEntry type="library" exported="" name="avospush-v2.5.7" level="project" />
     <orderEntry type="library" exported="" name="android-async-http-1.4.4-fix" level="project" />
-    <orderEntry type="library" exported="" name="qq.sdk.1.6.1" level="project" />
-    <orderEntry type="library" exported="" name="weibo.sdk.android.sso" level="project" />
-    <orderEntry type="library" exported="" name="avospush-v2.6.2" level="project" />
+    <orderEntry type="library" exported="" name="avosstatistics-v2.5.7" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-20.0.0" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-20.0.0" level="project" />
     <orderEntry type="library" exported="" name="httpmime-4.2.4" level="project" />
+    <orderEntry type="library" exported="" name="avoscloud-v2.5.7" level="project" />
   </component>
 </module>
 

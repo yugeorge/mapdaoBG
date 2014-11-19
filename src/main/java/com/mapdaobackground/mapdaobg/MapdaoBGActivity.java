@@ -6,8 +6,7 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-
-import com.avos.avoscloud.AVAnalytics;
+//import com.avos.avoscloud.AVAnalytics;
 import com.avos.avoscloud.AVUser;
 
 
@@ -52,12 +51,13 @@ public class MapdaoBGActivity extends Activity {
 
     protected void onPause() {
         super.onPause();
-        AVAnalytics.onPause(this);
+      //  AVAnalytics.o
+     //   AVAnalytics.onPause(this);
     }
 
     protected void onResume() {
         super.onResume();
-        AVAnalytics.onResume(this);
+      //  AVAnalytics.onResume(this);
     }
 }
 

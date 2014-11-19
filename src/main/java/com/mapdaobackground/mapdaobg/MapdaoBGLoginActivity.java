@@ -1,7 +1,7 @@
 package com.mapdaobackground.mapdaobg;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
+
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -45,8 +45,8 @@ public class MapdaoBGLoginActivity extends MapdaoBGActivity {
         }
 
             loginButton.setOnClickListener(loginListener);
-     //   registerButton.setOnClickListener(registerListener);
-     //   forgetPasswordButton.setOnClickListener(forgetPasswordListener);
+            registerButton.setOnClickListener(registerListener);
+            forgetPasswordButton.setOnClickListener(forgetPasswordListener);
     }
 
     private String password() {
@@ -90,6 +90,26 @@ View.OnClickListener loginListener = new View.OnClickListener() {
                 });
     }
 };
+
+    View.OnClickListener registerListener = new View.OnClickListener() {
+
+        @Override
+        public void onClick(View v) {
+            Intent registerIntent = new Intent(activity, MapdaoBGRegisterActivity.class);
+            startActivity(registerIntent);
+            activity.finish();
+        }
+    };
+
+   View.OnClickListener forgetPasswordListener = new View.OnClickListener() {
+
+       @Override
+       public void onClick(View arg0) {
+           Intent forgetPasswordIntent = new Intent(activity, MapdaoBGForgetPasswordActivity.class);
+           startActivity(forgetPasswordIntent);
+           activity.finish();
+       }
+   };
 
 
     @Override

@@ -52,5 +52,7 @@
     <string name="doing_detail_get_achievement_title">本次获得的成就</string>
     <string name="doing_detail_achievement_null">没有获得成就T.T</string>
     <string name="title_activity_mapdao_bgregister">MapdaoBGRegisterActivity</string>
+    <string name="title_activity_mapdao_bgforget_password">MapdaoBGForgetPasswordActivity</string>
+    <string name="error_register_email_notfound">邮箱不存在</string>
 
 </resources>

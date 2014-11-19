@@ -5,22 +5,45 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="L"
-        android:targetSdkVersion="L" />
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
+        android:name="com.mapdaobackground.mapdaobg.MapdaoBGApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.mapdaobackground.mapdaobg.MapdaoBGActivity"
-            android:label="@string/app_name" >
+            android:name="com.mapdaobackground.mapdaobg.MapdaoBGLoginActivity"
+            android:label="@string/title_activity_mapdao_bglogin" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mapdaobackground.mapdaobg.MapdaoBGMainActivity"
+            android:label="mapdao" >
+        </activity>
+        <activity
+            android:name="com.mapdaobackground.mapdaobg.MapdaoBGActivity"
+            android:label="@string/title_activity_mapdao_bg" >
+        </activity>
+        <activity
+            android:name="com.mapdaobackground.mapdaobg.MapdaoBGRegisterActivity"
+            android:label="@string/title_activity_mapdao_bgregister" >
+        </activity>
+        <activity
+            android:name="com.mapdaobackground.mapdaobg.MapdaoBGForgetPasswordActivity"
+            android:label="@string/title_activity_mapdao_bgforget_password" >
         </activity>
     </application>
 

@@ -18,18 +18,88 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static final int action_logout=0x7f08000c;
+        public static final int action_settings=0x7f08000d;
+        public static final int button_find_password=0x7f080001;
+        public static final int button_forget_password=0x7f080006;
+        public static final int button_i_need_register=0x7f08000b;
+        public static final int button_login=0x7f080004;
+        public static final int button_register=0x7f080005;
+        public static final int editText_forget_password_email=0x7f080000;
+        public static final int editText_register_email=0x7f080008;
+        public static final int editText_register_userName=0x7f080007;
+        public static final int editText_register_userPassword=0x7f080009;
+        public static final int editText_register_userPassword_again=0x7f08000a;
+        public static final int editText_userName=0x7f080002;
+        public static final int editText_userPassword=0x7f080003;
     }
     public static final class layout {
         public static final int activity_mapdao_bg=0x7f030000;
+        public static final int activity_mapdao_bg2=0x7f030001;
+        public static final int activity_mapdao_bgforget_password=0x7f030002;
+        public static final int activity_mapdao_bglogin=0x7f030003;
+        public static final int activity_mapdao_bgregister=0x7f030004;
     }
     public static final class menu {
         public static final int mapdao_bg=0x7f070000;
+        public static final int mapdao_bgforget_password=0x7f070001;
+        public static final int mapdao_bglogin=0x7f070002;
+        public static final int mapdao_bgregister=0x7f070003;
     }
     public static final class string {
-        public static final int action_settings=0x7f050000;
-        public static final int app_name=0x7f050001;
-        public static final int hello_world=0x7f050002;
+        public static final int action_about_app=0x7f050000;
+        public static final int action_about_app_doing_list_title=0x7f050001;
+        public static final int action_about_app_submit_doing=0x7f050002;
+        public static final int action_about_app_submit_doing_hint=0x7f050003;
+        public static final int action_about_app_submit_message_error=0x7f050004;
+        public static final int action_about_app_submit_message_success=0x7f050005;
+        public static final int action_about_app_text=0x7f050006;
+        public static final int action_logout=0x7f050007;
+        public static final int action_logout_alert_message=0x7f050008;
+        public static final int action_settings=0x7f050009;
+        public static final int app_name=0x7f05000a;
+        public static final int dialog_Cancel=0x7f05000b;
+        public static final int dialog_OK=0x7f05000c;
+        public static final int dialog_error_title=0x7f05000d;
+        public static final int dialog_message_success=0x7f05000e;
+        public static final int dialog_message_title=0x7f05000f;
+        public static final int dialog_text_wait=0x7f050010;
+        public static final int doing_detail_achievement_null=0x7f050011;
+        public static final int doing_detail_get_achievement_title=0x7f050012;
+        public static final int doing_detail_loading=0x7f050013;
+        public static final int doing_detail_person=0x7f050014;
+        public static final int doing_detail_same_time_title=0x7f050015;
+        public static final int doing_list_error_loading=0x7f050016;
+        public static final int doing_list_wait_loading=0x7f050017;
+        public static final int error_login_error=0x7f050018;
+        public static final int error_register_email_address_null=0x7f050019;
+        public static final int error_register_email_notfound=0x7f05001a;
+        public static final int error_register_email_repeat=0x7f05001b;
+        public static final int error_register_password_not_equals=0x7f05001c;
+        public static final int error_register_password_null=0x7f05001d;
+        public static final int error_register_user_name_null=0x7f05001e;
+        public static final int error_register_user_name_repeat=0x7f05001f;
+        public static final int forget_password_email_error=0x7f050020;
+        public static final int forget_password_find_password_button=0x7f050021;
+        public static final int forget_password_send_email=0x7f050022;
+        public static final int hello_world=0x7f050023;
+        public static final int login_button_forget_password=0x7f050024;
+        public static final int login_button_login=0x7f050025;
+        public static final int login_button_register=0x7f050026;
+        public static final int login_input_user_name=0x7f050027;
+        public static final int login_input_user_password=0x7f050028;
+        public static final int main_view_anytime_title=0x7f050029;
+        public static final int main_view_person_title=0x7f05002a;
+        public static final int network_error=0x7f05002b;
+        public static final int person_achievement_list_null=0x7f05002c;
+        public static final int person_register_time=0x7f05002d;
+        public static final int register_input_user_email=0x7f05002e;
+        public static final int register_input_user_password_again=0x7f05002f;
+        public static final int success_register_success=0x7f050030;
+        public static final int title_activity_mapdao_bg=0x7f050031;
+        public static final int title_activity_mapdao_bgforget_password=0x7f050032;
+        public static final int title_activity_mapdao_bglogin=0x7f050033;
+        public static final int title_activity_mapdao_bgregister=0x7f050034;
     }
     public static final class style {
         /**  Customize your theme here. 

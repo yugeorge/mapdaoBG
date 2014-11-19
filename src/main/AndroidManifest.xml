@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mapdaobackground.mapdaobg" >
 
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
     <application
         android:name=".MapdaoBGApplication"
         android:allowBackup="true"
@@ -9,8 +13,10 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MapdaoBGMainActivity"
-            android:label="@string/app_name" >
+
+            android:name=".MapdaoBGLoginActivity"
+            android:label="@string/title_activity_mapdao_bglogin" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,8 +24,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MapdaoBGLoginActivity"
-            android:label="@string/title_activity_mapdao_bglogin" >
+            android:name=".MapdaoBGMainActivity"
+            android:label="mapdao" >
         </activity>
         <activity
             android:name=".MapdaoBGActivity"
@@ -28,6 +34,10 @@
         <activity
             android:name=".MapdaoBGRegisterActivity"
             android:label="@string/title_activity_mapdao_bgregister" >
+        </activity>
+        <activity
+            android:name=".MapdaoBGForgetPasswordActivity"
+            android:label="@string/title_activity_mapdao_bgforget_password" >
         </activity>
     </application>
 
